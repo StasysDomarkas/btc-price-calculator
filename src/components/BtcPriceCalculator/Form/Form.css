@@ -1,0 +1,80 @@
+.Form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px 30px 40px;
+  box-shadow: 0px 10px 13px -7px #92929299,
+    5px 5px 3px 6px rgb(231 231 231 / 0%);
+  border-radius: 8px;
+  min-width: 458px;
+  min-height: 272px;
+  background-color: white;
+}
+
+.Form h1 {
+  margin-top: 0px;
+}
+
+.Currency {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+.Currency-message {
+  color: gray;
+}
+
+.Currency-field-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.Currency-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 10px 13px -7px #92929299,
+    5px 5px 3px 6px rgb(231 231 231 / 0%);
+  border: 1px solid rgb(11, 11, 68);
+  border-radius: 16px;
+  padding: 15px;
+  margin: 0px 10px;
+  min-width: 80px;
+}
+
+.Currency-field-remove-button {
+  margin-top: 10px;
+  background-color: rgb(70, 16, 16);
+  color: rgb(202, 202, 202);
+  border: none;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 13px -7px #92929299,
+    5px 5px 3px 6px rgb(231 231 231 / 0%);
+}
+
+.Currency-field-remove-button:hover {
+  background-color: rgb(170, 83, 83);
+}
+
+@media only screen and (max-width: 570px) {
+  .Form {
+    min-width: 200px;
+  }
+
+  .Currency-field-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Currency-field {
+    margin: 20px 0px 0px 0px;
+  }
+}
