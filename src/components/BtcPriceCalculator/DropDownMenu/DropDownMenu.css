@@ -29,6 +29,10 @@
   background-color: rgb(42, 152, 255);
 }
 
+.Drop-down-button:focus {
+  outline: none;
+}
+
 .Drop-down-list-wrapper {
   position: absolute;
   padding: 10px;

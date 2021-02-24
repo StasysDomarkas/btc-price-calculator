@@ -64,6 +64,10 @@
   background-color: rgb(170, 83, 83);
 }
 
+.Currency-field-remove-button:focus {
+  outline: none;
+}
+
 @media only screen and (max-width: 570px) {
   .Form {
     min-width: 200px;
