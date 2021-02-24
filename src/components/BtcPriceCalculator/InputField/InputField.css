@@ -6,3 +6,7 @@
   padding: 15px;
   width: auto;
 }
+
+.Input-field:focus {
+  outline: none;
+}
